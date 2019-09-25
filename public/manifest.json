@@ -1,0 +1,11 @@
+{
+ "name": "CMRC",
+ "icons": [
+  {
+   "src": "\/favico.ico",
+   "sizes": "192x192",
+   "type": "image\/ico",
+   "density": "0.75"
+  }
+ ]
+}

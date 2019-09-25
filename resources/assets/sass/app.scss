@@ -1,0 +1,51 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.bg-white {
+  background-color: $bg-white;
+}
+ 
+.primary-color {
+  color: $pimary-color !important;
+}
+
+.fine-btn {
+  font-size: 11px !important;
+  background-color: $bg-white !important;
+  color: $pimary-color;
+  text-decoration: none;
+}
+
+.fine-btn:hover {
+  background-color: #fafcfd !important;
+  color: rgb(60, 146, 170);
+  text-decoration: none;
+}
+
+.navbar-laravel {
+  background-color: $bg-white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.order-btn-wrap {
+  border: 1px solid #dde7f0;
+  border-radius: $border-radius-min;
+  margin: 3px 5px;
+  padding: 3px;
+  background-color: #f8f9fa;
+}
+
+.order-btn-wrap > a {
+  font-size: 14px; 
+  white-space: pre-wrap;
+  font-weight: 600;
+  padding: 10px auto;
+  width: 100%;
+}
